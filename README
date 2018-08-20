@@ -1,0 +1,8 @@
+Kann ausgefuehrt werden mit:
+
+mpirun -np 1 julia mehrgitter_grundgeruest.jl eingabe.txt ausgabe  ODER auf Jureca: srun --ntasks-per-nodes=1 julia mehrgitter_grundgeruest.jl eingabe.txt ausgabe
+
+Dafuer muss Julia 0.6.3 installiert sein und das Package MPI importiert worden sein.
+Mit -np kann die Prozessorenanzahl angegeben werden. 
+Einstellungen koennen in der Eingabedatei gemacht werden.
+Es sollte nur der NAme fuer die AusgabeDatei oder der Pfad angegebeb werden. Die Prozessorenanzahl und die Endung wird angeh\"angt.

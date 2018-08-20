@@ -1,0 +1,11 @@
+# Beispiel 
+# Mit diesen Parametern kann gearbeitet werden
+# nmin = 63
+# nmax = 10000
+# miniter = 10
+# maxiter = 10
+# kmin = 6
+# kmax = 10
+# iterationen = 2 (im glaetter)
+# error = 0.000001
+# param = 4/5 fuer jacobi
